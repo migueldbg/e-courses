@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Session Name="/home/miguel/Desktop/CPPExamples/Section 11/Section 11.workspace">
+  <int Value="0" Name="m_selectedTab"/>
+  <wxString Value="/home/miguel/Desktop/CPPExamples/Section 11/Section 11.workspace" Name="m_workspaceName"/>
+  <TabInfoArray Name="TabInfoArray">
+    <TabInfo>
+      <wxString Value="/home/miguel/Desktop/CPPExamples/Section 11/Challenge/main.cpp" Name="FileName"/>
+      <int Value="92" Name="FirstVisibleLine"/>
+      <int Value="163" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds">
+        <IntVectorItem Value="26"/>
+        <IntVectorItem Value="60"/>
+        <IntVectorItem Value="76"/>
+        <IntVectorItem Value="87"/>
+        <IntVectorItem Value="99"/>
+        <IntVectorItem Value="112"/>
+        <IntVectorItem Value="124"/>
+        <IntVectorItem Value="141"/>
+        <IntVectorItem Value="171"/>
+        <IntVectorItem Value="183"/>
+      </IntVector>
+    </TabInfo>
+  </TabInfoArray>
+  <SerializedObject Name="m_breakpoints">
+    <long Value="0" Name="Count"/>
+  </SerializedObject>
+</Session>
