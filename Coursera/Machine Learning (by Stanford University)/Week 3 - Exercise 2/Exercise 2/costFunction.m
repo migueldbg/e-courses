@@ -20,12 +20,16 @@ grad = zeros(size(theta));
 % Note: grad should have the same dimensions as theta
 %
 
-J = 
+% The hypothesis matrix (mx1) containing the hypothesis values for each training
+% set m.
+h = sigmoid(X*theta);
 
+% Vectorized implementation to compute the Cost Function 'J':
+J = (1/m) * (-y' * log(h) - (1 - y)' * log(1 - h));
 
-
-
-
+% Vectorized implementation to compute each component of the gradient vector 
+% used in gradient descent.
+grad = (1/m) * (X' * (h - y));
 
 % =============================================================
 
